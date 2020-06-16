@@ -8,6 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 cities_list =['chicago','new york city','washington']
 months_list =['january', 'february', 'march', 'april', 'may', 'june', 'all']
 days_list=['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all']
+#get_filter function is used to get the required parameter to extract the bike info.
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
