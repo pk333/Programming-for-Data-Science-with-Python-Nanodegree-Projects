@@ -18,3 +18,7 @@ washington.csv
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 https://www.atlassian.com/git/tutorials/saving-changes/gitignore#git-ignore-patterns
 
+###Packages used
+Numpy
+Panda
+

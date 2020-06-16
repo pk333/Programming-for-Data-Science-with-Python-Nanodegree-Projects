@@ -7,6 +7,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 #cities_list variable is used to set the list of cities.
 cities_list =['chicago','new york city','washington']
+#months_list variable list of months that will be used to filter the data.
 months_list =['january', 'february', 'march', 'april', 'may', 'june', 'all']
 days_list=['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all']
 #get_filter function is used to get the required parameter to extract the bike info.
@@ -221,7 +222,7 @@ def display_data(df):
             continue
         else:
             break
-
+#Below is the main functon from where execution start
 def main():
     while True:
        city, month, day = get_filters()
