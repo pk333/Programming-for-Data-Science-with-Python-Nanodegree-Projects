@@ -5,6 +5,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+#cities_list variable is used to set the list of cities.
 cities_list =['chicago','new york city','washington']
 months_list =['january', 'february', 'march', 'april', 'may', 'june', 'all']
 days_list=['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all']
