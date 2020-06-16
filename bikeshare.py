@@ -220,7 +220,7 @@ def display_data(df):
             continue
         else:
             break
-
+#Below is the main functon from where execution start
 def main():
     while True:
        city, month, day = get_filters()
